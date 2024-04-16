@@ -1,0 +1,175 @@
+/*--------------------------------- Especificações-do-site------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----------------------------------Cabeçalho-(navbar)----------------------------*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 9.5px;
+}
+
+nav{ 
+    flex: 1;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+    font-size: large;
+    font-weight: 100;
+}
+
+
+header{
+    display: block;
+    border-top:1px solid #000000;
+    border-bottom:2px solid #000000;
+    height: 100px;
+}
+
+.icons{ 
+    display: flex;
+    float: right;
+    gap:  25px;
+    list-style-type: none;
+    font-size: larger;
+}
+
+.icons :hover{
+ color: gray;
+}
+
+#menu-icon{
+    font-size: larger;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;   
+}
+
+
+#Navmenu a:hover{ 
+color: grey;
+}
+
+/*------------------------------------Home-Page-----------------------------------*/
+
+section{
+    padding: 2% 10%;
+}
+
+.banner-home{ 
+    height: 1000px;
+    max-width: 100%;
+    background-image: url(possivelbanner.webp);
+    background-size: cover;
+}
+
+
+.titlehome h6{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.titlehome h1{
+    color: black;
+    font-size: 70px;
+   text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+
+.titlehome p{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 25px;
+    color: rgb(83, 83, 83);
+
+}
+
+.botao-home {
+    display: inline-block;
+    color:rgb(36, 36, 36);
+    padding: 12px 25px;
+}
+
+.botaodrop{
+    border-radius: 5px;
+    color:rgb(36, 36, 36);
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: rgb(206, 206, 206);
+    border: 2px solid rgb(95, 95, 95);
+}
+
+.botao-home i{ 
+    vertical-align: middle;
+    margin: 2px;
+}
+
+.botaodrop :hover{
+    border-radius: 5px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border: 2px solid rgb(73, 73, 73);
+    font-size: 13px;
+}
+
+.botao-descer{
+    position: absolute;
+top: 85%;
+right: 5%;
+}
+
+.botao-down i{
+font-size: 30px;
+color: black;
+border: 2px solid black;
+border-radius: 50px;
+padding: 12px 12px;
+}
+
+/*------------------------------Cabeçalho-com-javascript-------------------------*/
+
+header.sticky{ 
+    background: white;
+    padding: 20px 10%;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+/*------------------------------------Section-Favs---------------------------------*/
+
+.text-fav{ 
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;    
+}
+
+.text-fav p{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
